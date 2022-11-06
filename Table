@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<h1>Programlasdirma kurslari</h1>
+
+<table>
+  <tr>
+    <th>Shekil</th>
+    <th>Kurs adi</th>
+    <th>Aciglama</th>
+    <th>katagoriya</th>
+    <th> </th>
+  </tr>
+  <tr>
+    <td><img src="https://smartpro.com.tr/wp-content/uploads/2017/06/en-iyi-yazilim-kursu.jpg" width="200" height="128"></td>
+    <td>Her hansisa bir kurs adini daxil ede bilerik </td>
+    <td>Kurs haqqinda melumat daxil ede bilerik</td>
+   <td rowspan="2">Website</td>
+   <td><a href="">link</a></td>
+  </tr>
+  <tr>
+    <td><img src="https://cdn.webtekno.com/media/cache/content_detail_v2/article/100964/ucretsiz-udemy-kurslari-yazilim-1603197630.jpg" width="200" height="128" </td>
+    <td>Her hansisa bir kurs adini daxil ede bilerik</td>
+    <td>Kurs haqqinda melumat daxil ede bilerik</td>
+    <td><a href="">link</a></td>
+  </tr>
+  <tr>
+    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WSFMs5X54rNZkw_grLAYIdXbbIePRocgRM_BkrUmPKrcS9wE8XltaQoRMwrZ4xL7Jec&usqp=CAU"width="200" height="128"></td>
+    <td>Her hansisa bir kurs adini daxil ede bilerik</td>
+    <td>Kurs haqqinda melumat daxil ede bilerik</td>
+    <td>Website</td>
+    <td><a href="">link</a></td>
+  </tr>
+</table>
+
+
+</body>
+</html>
