@@ -1,0 +1,14 @@
+let input = document.querySelector(".input");
+let addBtn = document.querySelector(".addBtn");
+let deleteBtn = document.querySelector(".deleteBtn");
+let tasksList = document.querySelector(".tasksList")
+
+addBtn.addEventListener("click",function(){
+    console.log(input.value);
+    let task = document.createElement("li");
+    task.innerText = input.value;
+    tasksList.appendChild(task);
+});
+
+
+console.log(input.value);
